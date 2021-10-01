@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SGTest" annotations="1.5">
+    <test name="TestSuite">
+        <classes>
+            <class name="testCases.login"/>
+            <class name="testCases.productsTest"/>
+            <class name="testCases.checkoutTests"/>
+            <class name="testCases.logout"/>
+        </classes>
+    </test>
+</suite>
